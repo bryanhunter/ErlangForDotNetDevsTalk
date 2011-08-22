@@ -1,0 +1,1 @@
+werl -sname ostrich -pa ./ebin

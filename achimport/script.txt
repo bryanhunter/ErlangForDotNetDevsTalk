@@ -1,0 +1,7 @@
+startnode.bat
+
+achimport_importer:process_file("./priv/200k.txt").
+
+eprof:profile(fun() -> achimport_importer:process_file("./priv/200k.txt") end).
+eprof:analyze().
+eprof:stop().

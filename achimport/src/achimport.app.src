@@ -1,0 +1,12 @@
+{application, achimport,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { achimport_app, []}},
+  {env, []}
+ ]}.
